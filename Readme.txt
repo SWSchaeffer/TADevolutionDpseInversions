@@ -34,6 +34,19 @@ Dpse_UCI_Breakpoints.fas 13 breakpoint sequences
 Dpse_UCI_TAD_Boundary.fas 168 TAD sequences
 
 --------------
+Fortran Program: Repeat TAD BP Random Permutation.f
+Function: Randomly permute Repeat TAD BP data for the 2413 intergenic regions
+
+Input Files:
+Repeat_TAD_BP.txt - column 1 intergenic region          - [0=without repeat; 1=with repeat]
+                    column 2 TAD boundary designation   - [0=no; 1=yes]
+                    column 3 Breakpoint                 - [0=no; 1=yes]
+
+Output Files:
+Repeat_TAD_BP_Results.csv             - Results of the 1,000,000 random permutations, each row presents the table 
+Repeat_TAB_BP_Permutation_Results.txt - Output of the Chi Square test and permutation analysis
+
+--------------
 Fortran Program: TAD Diff Expression Plot.f
 Function: Draw a TAD map for the third chromosome of D. pseudoobscura along with inversion breakpoints
 

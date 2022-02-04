@@ -1,0 +1,47 @@
+Repeat, TAD, and Breakpoint data
+Drosophila pseudoobscura Chromosome 3
+Intergenic Regions = 2413
+Random seed=         -560079
+
+
+Repeat(-)
+              TAD(-)            TAD(+)
+BP(-)   Obs    2182.00            126.00
+        Exp    2141.29            160.24
+
+Permute Min    2133.00            145.00
+Permute Max    2157.00            168.00
+
+BP(+)   Obs       5.00              1.00
+        Exp      11.60              0.87
+
+Permute Min       5.00              0.00
+Permute Max      13.00              7.00
+
+
+Repeat(+)
+              TAD(-)            TAD(+)
+BP(-)   Obs      55.00             37.00
+        Exp      91.61              6.86
+
+Permute Min      76.00              0.00
+Permute Max      99.00             22.00
+
+BP(+)   Obs       3.00              4.00
+        Exp       0.50              0.04
+
+Permute Min       0.00              0.00
+Permute Max       6.00              3.00
+
+
+Frequencies
+      Repeat       TAD        BP
+(-)     2314.     2245.     2400.
+(+)       99.      168.       13.
+Total   2413.     2413.     2413.
+
+
+        Observed Chi-Square =     594.58
+
+Permute Minimum  Chi-Square =       0.57
+Permute Maximum  Chi-Square =     243.22
